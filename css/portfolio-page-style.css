@@ -12,6 +12,9 @@
     src: url("../fonts/iranyekan/Qs_Iranyekan.ttf");
 }
 
+input{
+    width : 300px !important;
+}
 
 h2{
     font-family: lalezar;

@@ -30,7 +30,7 @@ nav{
 header{
     font-family: lalezar, sans-serif;
     padding : 100px 10px;
-    background : orange;
+    background : linear-gradient(purple, rgb(143, 6, 255));
     color : #fff;
 }
 
@@ -50,6 +50,11 @@ h1{
 
 }
 
+.employer-img{
+    max-width : 50%;
+}
+
+
 p{
     font-family: iranyekan , sans-serif;
 }
@@ -60,9 +65,42 @@ h2{
     color : rgb(119, 0, 255);
 }
 
+h5{
+    font-family: iranyekan, sans-serif;
+    color :rgb(57, 238, 169);
+}
+
+input{
+    width : 300px !important;
+    outline : none;
+}
+
+textarea{
+    outline : none;
+}
+
+.contact-btn{
+    color : #fff;
+    background :rgb(119, 0, 255)
+}
+
+
+.subscribe-btn{
+    background :rgb(28, 233, 147);
+    color : #fff;
+}
 
 @media screen and (max-width : 278px){
     h1{
         font-size: 2rem !important;
+    }
+}
+
+@media screen and (max-width : 350px){
+    input{
+        width : 100% !important;
+    }
+    textarea{
+        width : 100% !important;
     }
 }
